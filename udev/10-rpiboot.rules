@@ -1,0 +1,3 @@
+#ATTRS{idVendor}=="f055", ATTRS{idProduct}=="b007", SUBSYSTEM=="tty", SYMLINK+="ttyZB%n"
+ATTRS{idVendor}=="f055", ATTRS{idProduct}=="b007", SUBSYSTEM=="tty",\
+    RUN+="/srv/usbboot/udev/event-handler.py"
