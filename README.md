@@ -30,7 +30,7 @@ For each client Pi create a directory `/srv/usbboot/clients/by-serial/<serial nu
 For a default file set, create `/srv/usbboot/clients/default` and copy the required boot files into it.
 
 ## Usage
-Run `sudo rpiboot -l -d /srv/usbboot/live`
+Run `sudo rpiboot -l -o -d /srv/usbboot/live`
 Connect you client Pi
 
 ## Utility Scripts
